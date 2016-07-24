@@ -15,5 +15,5 @@ if (hourNow < 4) {
   var knowQuest = ["What do coins and choclate have in common?", "How was chocolate first consumed, by drinking or eating?", "What invention revolutionalized the art of chocolate making?", "Where are the trees from which chocolate is produced mainly located?", "The performance of what proper processes ensure that chocolate will have the correct flavor?"];
     var randomknowQuest = knowQuest[Math.floor(Math.random()*knowQuest.length)];
 
-    document.getElementById("say").innerHTML = randomknowQuest;
+    document.getElementById("rand").innerHTML = randomknowQuest;
     

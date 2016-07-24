@@ -361,7 +361,7 @@
 }
 /*end of slide show*/
 
-.navbar-brand, .nav {background-color: #5C0D0D;
+.navbar-brand, .nav, .dropdown-menu {background-color: #5C0D0D;
 	color: #FFF;
 	font-family: 'Jomhuria', cursive;
 	font-size: 200%;
@@ -369,26 +369,48 @@
 }
 	
 	
-.bk {background-color: #09ACE3;
-	
-}
-.jumbotron {background-image: url(../images/choc.jpg);
+
+.jumbotron {
     color: #FFF;
     font-family: 'Jomhuria', cursive;
     text-align: center;
     font-size: 200%;
 	
 }
-.dwn {margin-top: 5%;
+.ph {background-image: url(../images/choc.jpg);
+	
+    
+}
+.pht {background-image: url(../images/tea.jpg);
+    
+}
+.phf {background-image: url(../images/coffee.jpg);
     
 }
 
+.dwn {margin-top: 5%;
+    
+}
+h3, .type {color: #FFF;
+	text-align: center;
+	
+}
+.teat {color: #0F6B11;
+	
+}
+.typeTea {margin-top: 10%;
+	
+}
 .modal-header, .modal-footer {text-align: center;
 	background-color: #5C0D0D;
 	color: #FFF;
 }
 #hello {text-align: center;
     font-family: 'Passion One', cursive;
+    color: #FFF;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold; 
 	
 }
 .title {text-align: center;
@@ -396,92 +418,78 @@
 		font-family: 'Farsan', cursive;
 		font-size: 250%;
 		font-weight: bold;
+		color: #FFF;
 }
 .dn {margin-top: 3%;
 	
 }
-.nrec {margin-left: 25%;
+.nrec {text-align: center;
+	color: #FFF;
+	background-color: #5C0D0D;
 	
 }
-.color {color: #FFF;
-	background-color: #000;
-	text-align: center;
-}
-#say {text-align: center;
+.ctr {text-align: center;}
+
+.random {text-align: center;
+    font-size: 175%;
     font-weight: bold;
+    margin-top: 10%;
+    background-color: #5C0D0D;
+    color: #FFF;
+}
+#rand {text-align: center;
+    font-weight: bold;
+    font-size: 120%;
     
-/*Thanks to Lokesh Suthar for this comment box*/
- 
-/*@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);*/
-
-.detailBox {
-    width:320px;
-    border:1px solid #bbb;
-    margin:50px;
-}
-.titleBox {
-    background-color:#fdfdfd;
-    padding:10px;
-}
-.titleBox label{
-  color:#444;
-  margin:0;
-  display:inline-block;
 }
 
-.commentBox {
-    padding:10px;
-    border-top:1px dotted #bbb;
+.cbk {background-image: url(../images/chocbar.png);
+
 }
-.commentBox .form-group:first-child, .actionBox .form-group:first-child {
-    width:80%;
+    
+.tbk {background-image: url(../images/teabk.jpg);
+    
 }
-.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
-    width:18%;
+.fbk {background-image: url(../images/cbk.jpg);
+   
+    
 }
-.actionBox .form-group * {
-    width:100%;
+.prec {background-image: url(../images/steam.jpg);
+	
 }
-.taskDescription {
-    margin-top:10px 0;
+.fbk {background-image: url(../images/maze.jpg);
+	
 }
-.commentList {
-    padding:0;
-    list-style:none;
-    max-height:200px;
-    overflow:auto;
+.bk {background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	
 }
-.commentList li {
-    margin:0;
-    margin-top:10px;
+.nyt {color:#FFF;
+	text-align: center;
+	font-size: 125%;
 }
-.commentList li > div {
-    display:table-cell;
-}
-.commenterImage {
-    width:30px;
-    margin-right:5px;
-    height:100%;
-    float:left;
-}
-.commenterImage img {
-    width:100%;
-    border-radius:50%;
-}
-.commentText p {
-    margin:0;
-}
-.sub-text {
-    color:#aaa;
-    font-family:verdana;
-    font-size:11px;
-}
-.actionBox {
-    border-top:1px dotted #bbb;
-    padding:10px;
+.funFacts {background-color: #5C0D0D;
+	margin-top: 3%;
+	padding: 5%;
+
 }
 
-
+footer {color: #FFF;
+	text-align: center;
+	font-size: 150%;
+	margin-top: 5%;
+}
+    
+.comments {font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.form-group {background-color: #5C0D0D;
+    color:  #FFF;
+    
+}
 
 
 
@@ -658,7 +666,14 @@
 }
 
     
-canvas {
+canvas {margin-left: 20%;
+	margin-top: 20%;
     border: 1px solid #000;
-    background-color: #3832DB;
+    background-color: #535C5E;
 }
+.titleg {text-align: center;
+	color: #5C0D0D;
+	font-size: 100%;
+	
+}
+	

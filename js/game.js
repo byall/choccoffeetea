@@ -1,18 +1,18 @@
-var myGamePiece;
-var myObstacles = [];
-var myScore;
+var chocChunk;
+var whiteStick = [];
+var gameScore;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "", 10, 120);
-    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+    chocChunk = new component(20, 30, "#5C0D0D", 10, 120);
+    gameScore = new component("30px", "Consolas", "#000", 280, 40, "text");
     myGameArea.start();
 }
 
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 480;
-        this.canvas.height = 270;
+        this.canvas.width = 880;
+        this.canvas.height = 500;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
@@ -68,8 +68,8 @@ function component(width, height, color, x, y, type) {
 
 function updateGameArea() {
     var x, height, gap, minHeight, maxHeight, minGap, maxGap;
-    for (i = 0; i < myObstacles.length; i += 1) {
-        if (myGamePiece.crashWith(myObstacles[i])) {
+    for (i = 0; i < whiteStick.length; i += 1) {
+        if (chocChunk.crashWith(whiteStick[i])) {
             myGameArea.stop();
             return;
         }
@@ -84,18 +84,18 @@ function updateGameArea() {
         minGap = 50;
         maxGap = 200;
         gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
-        myObstacles.push(new component(10, height, "green", x, 0));
-        myObstacles.push(new component(10, x - height - gap, "green", x, height + gap));
+        whiteStick.push(new component(10, height, "#FFF", x, 0));
+        whiteStick.push(new component(10, x - height - gap, "#FFF", x, height + gap));
     }
-    for (i = 0; i < myObstacles.length; i += 1) {
-        myObstacles[i].speedX = -1;
-        myObstacles[i].newPos();
-        myObstacles[i].update();
+    for (i = 0; i < whiteStick.length; i += 1) {
+        whiteStick[i].speedX = -1;
+        whiteStick[i].newPos();
+        whiteStick[i].update();
     }
-    myScore.text="SCORE: " + myGameArea.frameNo;
-    myScore.update();
-    myGamePiece.newPos();
-    myGamePiece.update();
+    gameScore.text="SCORE: " + myGameArea.frameNo;
+    gameScore.update();
+    chocChunk.newPos();
+    chocChunk.update();
 }
 
 function everyinterval(n) {
@@ -104,23 +104,22 @@ function everyinterval(n) {
 }
 
 function moveup() {
-    myGamePiece.speedY = -1;
+    chocChunk.speedY = -1;
 }
 
 function movedown() {
-    myGamePiece.speedY = 1;
+    chocChunk.speedY = 1;
 }
 
 function moveleft() {
-    myGamePiece.speedX = -1;
+    chocChunk.speedX = -1;
 }
 
 function moveright() {
-    myGamePiece.speedX = 1;
+    chocChunk.speedX = 1;
 }
 
 function clearmove() {
-    myGamePiece.speedX = 0;
-    myGamePiece.speedY = 0;
+    chocChunk.speedX = 0;
+    chocChunk.speedY = 0;
 }
-

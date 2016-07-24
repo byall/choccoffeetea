@@ -30,61 +30,61 @@
 </head>
 
 <body>
-    <!--start of navigation-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>YUM<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-
-                </button>
-            </div>
-            <!-- End of Navbar Header -->
-            <div class="collapse navbar-collapse" id="myNavbar">
+    <!--Start of Navigation Bar-->
+        
+            <div class="container-fluid">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">YUM</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        
+                    </button>
+                </div>  <!-- End of Navbar Header -->
+                <div class="collapse navbar-collapse" id="myNavbar">
                 <div>
                     <ul class="nav nav-justified navbar-pills">
-                        <li><a href="#index.html">HOME</a></li>
+                        <li><a href="index.html">HOME</a></li>
                         <li><a href="#">CHOCOLATE</a></li>
+                            <li class="dropdown">
+                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="chx.html"> HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>and CULTIVATION <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
+                                    
+                                    <li><a href="rec.html">RECIPIE IDEAS</a></li>
+                                </ul>
+                            </li>
+                        <li><a href="#">COFFEE</a></li>
                         <li class="dropdown">
-                            <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="chx.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>HISTORY and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-
-                                <li><a href="crecipies.html">RECIPIE IDEAS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#about.html">COFFEE</a></li>
+                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="fhx.html">HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
+                                    
+                                    <li><a href="rec.html">RECIPIE IDEAS</a></li>
+                                </ul>
+                            </li>
+                        <li><a href="#">TEA</a></li>
                         <li class="dropdown">
-                            <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="fhx.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>HISTORY and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-
-                                <li><a href="crecipes.html">RECIPIE IDEAS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#map.html">TEA</a></li>
-                        <li class="dropdown">
-                            <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="thx.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>HISTORY and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-
-                                <li><a href="crecipes.html">RECIPIE IDEAS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="fun.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>FUN<span class="glyphicon glyphicon-star" aria-hidden="true"></span></a></li>
+                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="thx.html">HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
+                                    
+                                    <li><a href="rec.html">RECIPIE IDEAS</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="fun.html"> FUN </a></li>
                         <li><a href="int.html">INTEREST FORM</a></li>
-
-                    </ul>
+                        
+                    </ul>   
+                    </div>
                 </div>
-            </div>
-        </div>
-    </nav>
-    <!-- End of Navigation-->
-
+             </nav>
+             </div>
+                     <!-- End of Navigation Bar-->
+        
     <div class="title">
         <h2>CHOCOLATE PECAN PIE</h2>
 
@@ -116,62 +116,34 @@
         </ul>
 
     </div>
-    <div class="detailBox">
-    <div class="titleBox">
-      <label>Comment Box</label>
-        <button type="button" class="close" aria-hidden="true">&times;</button>
-    </div>
-    <div class="commentBox">
-        
-        <p class="taskDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    </div>
-    <div class="actionBox">
-        <ul class="commentList">
-            <li>
-                <div class="commenterImage">
-                  <img src="http://placekitten.com/50/50" />
-                </div>
-                <div class="commentText">
-                    <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
-
-                </div>
-            </li>
-            <li>
-                <div class="commenterImage">
-                  <img src="http://placekitten.com/45/45" />
-                </div>
-                <div class="commentText">
-                    <p class="">Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p> <span class="date sub-text">on March 5th, 2014</span>
-
-                </div>
-            </li>
-            <li>
-                <div class="commenterImage">
-                  <img src="http://placekitten.com/40/40" />
-                </div>
-                <div class="commentText">
-                    <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
-
-                </div>
-            </li>
-        </ul>
-        <form class="form-inline" role="form">
+    <div class="comments"> 
+        <p>Ee hope you've tried this recipe and will offer your comments below:</p>
+    </div>                  
+    <!--Comment Form starts here-->
+        <form>
             <div class="form-group">
-                <input class="form-control" type="text" placeholder="Your comments" />
+                <label for="commentInputName"> Your opinions of this Chocolate Pecan Pie</label>
+                <input type="text" class="form-control" id="commentInputName" placeholder="Your Opinion">
             </div>
-            <div class="form-group">
-                <button class="btn btn-default">Add</button>
+            
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">Check this out
+                </label>
+                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-danger">Reset</button>
+                
             </div>
-        </form>
-    </div>
-</div>
-
+             
+        </form><!--Comment Form ends here-->
+    
+    
 
     <!--navigation for recipes-->
     <div>
         <button class="btn btn-success"><a href="mocha.html">MOCHA TRUFFLES</a></button>
         <button class="btn btn-success"><a href="chocpecan.html">CHOCOLATE PECAN PIE</a></button>
-        <button class="btn btn-success"><a href="mancha.html">MANCHA CAKE</a></button>
+        <button class="btn btn-success"><a href="matcha.html">MATCHA CAKE</a></button>
         <button class="btn btn-success"><a href="teab.html">BREWING TEA</a></button>
         <button class="btn btn-success"><a href="mole.html">MOLE SAUCE</a></button>
         <button class="btn btn-success"><a href="alcof.html">IRISH COFFEE</a></button>
@@ -179,7 +151,9 @@
 
     </div>
 
-
+<footer>
+        <span class="glyphicon glyphicon-copyright-mark"></span>2016 by All - FOR PROJECT CODE, all rights reserved
+    </footer>
 
 
 
@@ -193,6 +167,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script rel="javascript" src="js/ch.js"></script>
+    <script rel="javascript" src="js/show.js"></script>
+    <script rel="javascript" src="js/t.js"></script>
+    <script rel="javascript" src="js/exsl.js"></script>
 </body>
 
 </html>
