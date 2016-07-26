@@ -13,10 +13,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Game Chocolate Coffee and Tea </title>
+    <title>Game Bars and Sticks Chocolate Coffee and Tea </title>
     <meta name="description" content="Chocolate Coffee Tea describes the history and cultivation of these three foods and offers suggestions on recipes, as well as, entertaining games."/>
     <meta name="keywords" content="chocolate tea coffee history cultivation recipes ideas ingredients fun entertain games"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alike+Angular" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Jomhuria" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="css/choc.css">
@@ -30,8 +35,9 @@
     <![endif]-->
 </head>
 
-<body onload="startGame()" class="fubk">
-    <!--start of navigation-->
+<body onload="startGame()" class="fubk" class="container">
+    
+        <!--start of navigation-->
         
             <div class="container-fluid">
                 <nav class="navbar navbar-default navbar-fixed-top">
@@ -56,28 +62,27 @@
                         
                             <li><a href="fun.html" class="white"> FUN </a></li>
                             <li><a href="rec.html" class="white">RECIPIE IDEAS</a></li>
-                        <li><a href="int.html" class="white">INTEREST FORM</a></li>
+                        <li><a href="last.html" class="white">THANKS</a></li>
                         
                     </ul>   
                     </div>
                 </div>
              </nav>
              </div>
-                     <!-- End of Navigation-->
-                     
+                     <!-- End of Navigation--> 
  <div class="container">
      <div class="row">
          <div class="col-sm-12 col-md-6 box">
          
-  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
-  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
-  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
-  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+  <button class="gamebuttons" onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+  <button class="gamebuttons" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+  <button class="gamebuttons" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+  <button class="gamebuttons" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
 </div>  <!--End of col for Buttons-->
 
 <div class="col-sm-12 col-md-6">
     <h2 class="barint">BARS and STICKS</h2>
-                         <h3>Please use the buttons to help the chocolate bar avoid the pastry sticks.  How long can you last? </h3>
+                         <h3 class="barint">Please use the buttons to help the chocolate bar avoid the pastry sticks.  How long can you last? </h3>
     
 </div><!--End of col for Instructions-->
 
@@ -86,11 +91,12 @@
  </div><!--End of Container for Instructions and Buttons-->
  
 
+</div>
 
-    
-<!--<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the ACCELERATE button to stay in the air</p>
-<p>How long can you stay alive?</p>-->
+<footer>
+     &#169;&nbsp;2016 by All - FOR PROJECT CODE, all rights reserved
+  
+  </footer>
   
 
 

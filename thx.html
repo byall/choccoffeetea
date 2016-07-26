@@ -12,13 +12,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
     <title>Tea Chocolate Coffee and Tea </title>
     <meta name="description" content="Tea page for Chocolate Coffee Tea  which describes the history and cultivation of these three foods and offers suggestions on recipes, as well as, entertaining games.">
     <meta name="keywords" content="chocolate tea coffee history cultivation recipes ideas pecan truffle matcha ingredients fun entertain games">
 
-
-    <link href="https://fonts.googleapis.com/css?family=Jomhuria" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alike+Angular" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Jomhuria" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="css/choc.css">
@@ -32,7 +36,7 @@
 </head>
 
 <body class="tbk bk">
-    <!--start of navigation-->
+     <!--start of navigation-->
         
             <div class="container-fluid">
                 <nav class="navbar navbar-default navbar-fixed-top">
@@ -49,15 +53,15 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <div>
                     <ul class="nav nav-justified navbar-pills">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="chx.html">CHOCOLATE</a></li>
-                        <li><a href="fhx.html">COFFEE</a></li>
+                        <li><a href="index.html" class="white">HOME</a></li>
+                        <li><a href="chx.html" class="white">CHOCOLATE</a></li>
+                        <li><a href="fhx.html" class="white">COFFEE</a></li>
                     
-                        <li><a href="thx.html">TEA</a></li>
+                        <li><a href="thx.html" class="white">TEA</a></li>
                         
-                            <li><a href="fun.html"> FUN </a></li>
-                            <li><a href="rec.html">RECIPIE IDEAS</a></li>
-                        <li><a href="int.html">INTEREST FORM</a></li>
+                            <li><a href="fun.html" class="white"> FUN </a></li>
+                            <li><a href="rec.html" class="white">RECIPIE IDEAS</a></li>
+                        <li><a href="last.html" class="white">THANKS</a></li>
                         
                     </ul>   
                     </div>
@@ -65,7 +69,7 @@
              </nav>
              </div>
                      <!-- End of Navigation-->
-    <div class="jumbotron pht dwn teat">
+    <div class="jumbotron jumbotron-st jumbotron-pht jumbotron-teat">
         <div class="container">
             <h1>HISTORY and CULTIVATION of TEA</h1>
             <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></div>
@@ -73,13 +77,15 @@
 
 
     <div>
-        <h2 id="hello">WELCOME and GOOD DAY</h2>
+        <h2 id="hello"></h2>
+
 
     </div>
     <div class="row">
 
-          <div> 
-            <img src="images/teacup.jpg" class="img-responsive img-rounded center-block" alt="Image of Tea Cup" id="ex">
+          <div id="explode"> 
+            <img src="images/teacup.jpg" class="img-responsive img-rounded center-block" alt="Image of Tea Cup" >
+            <p class="disappear">Click the Cup to Make it Disappear</p>
         </div>
 
         
@@ -87,12 +93,12 @@
     <!--End of Row for Tea Types and Explosion-->
   <!--Modals Start Here-->
     <div class="container">
-        <div class="row">
+        <div class="row dwn">
             <div class="col-sm-12 col-md-6">
                 <!--History modal begins here, First modal-->
 
                 <!--Trigger for History modal-->
-                <h3>HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h3>
+                <h3 class="hxcl">HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h3>
                 <a href="#pot" data-toggle="modal"><img src="images/teapot.jpg" alt="Image of Tea Pot" class="img-responsive img-circle center-block"></a>
 
                 <!--History modal-->
@@ -117,7 +123,7 @@
 
 
                             <div class="modal-footer">
-                                <h5>NOW YOU KNOW WHAT COINS AND CHOCOLATE HAVE IN COMMON</h5>
+                                
                                 <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
                             </div>
                             <!--End of Footer for History Modal-->
@@ -133,7 +139,7 @@
             <div class="col-sm-12 col-md-6">
                 <!--Trigger for Cultivation modal,
 Second modal-->
-                <h3>CULTIVATION <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></h3>
+                <h3 class="hxcl">CULTIVATION <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></h3>
                 <a href="#bag" data-toggle="modal"><img src="images/teabags.jpg" alt="Image of Tea Bags" class="img-responsive img-circle center-block"></a>
 
                 <!--Cultivation modal, Second modal -->
@@ -172,19 +178,18 @@ Second modal-->
     <!--End of Container for Row-->
     <!--Modals End Here-->
     <footer>
-        <span class="glyphicon glyphicon-copyright-mark"></span>2016 by All - FOR PROJECT CODE, all rights reserved
-    </footer>
+     &#169;&nbsp;2016 by All - FOR PROJECT CODE, all rights reserved
+  
+  </footer>
     
     <script rel="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
-    <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script
-    <script rel="javascript" src="js/ch.js"></script>
-    <script rel="javascript" src="js/show.js"></script>
-    <script rel="javascript" src="js/t.js"></script>
+    <script rel="javascript" src="js/cct.js"></script>
+    
     <script rel="javascript" src="js/exsl.js"></script>
-
 </body>
 
 </html>
