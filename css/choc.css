@@ -476,6 +476,7 @@ h3, .type {color: #FFF;
 .quiz {background-color: #BD800F;
 	
 }
+
 .bk {background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -534,7 +535,27 @@ footer {color: #FFF;
 	font-size: 200%;
 	font-weight: bold;
 }
-
+.barint {font-size: 150%;
+		color: #FFF;
+		font-weight: bold;
+		text-align: center;
+	
+}
+.box {text-align:center;
+	width: 480px;
+	
+}
+canvas {margin-left: 10%;
+	margin-top: 10%;
+    border: 5px solid #000;
+    background-color: #5C0D0D;
+}
+.titleg {text-align: center;
+	color: #5C0D0D;
+	font-size: 100%;
+	
+}
+	
 
 
 /*Last page*/
@@ -710,14 +731,3 @@ footer {color: #FFF;
 }
 
     
-canvas {margin-left: 10%;
-	margin-top: 20%;
-    border: 5px solid #000;
-    background-color: #5C0D0D;
-}
-.titleg {text-align: center;
-	color: #5C0D0D;
-	font-size: 100%;
-	
-}
-	

@@ -30,7 +30,7 @@
     <![endif]-->
 </head>
 
-<body onload="startGame()">
+<body onload="startGame()" class="fubk">
     <!--start of navigation-->
         
             <div class="container-fluid">
@@ -64,19 +64,26 @@
              </nav>
              </div>
                      <!-- End of Navigation-->
-                     <div>
-        <h2 class="titleg">BARS and STICKS</h2>
-                         <h3>Please use the buttons to help the chocolate bar avoid the pastry sticks.  How long can you last? </h3>
-          
-    </div>   
-        
-  <div style="text-align:center;width:480px;">
+                     
+ <div class="container">
+     <div class="row">
+         <div class="col-sm-12 col-md-6 box">
+         
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
   <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
   <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
-</div>    
+</div>  <!--End of col for Buttons-->
 
+<div class="col-sm-12 col-md-6">
+    <h2 class="barint">BARS and STICKS</h2>
+                         <h3>Please use the buttons to help the chocolate bar avoid the pastry sticks.  How long can you last? </h3>
+    
+</div><!--End of col for Instructions-->
+
+
+     </div><!--End of Row for Buttons and Instructions-->
+ </div><!--End of Container for Instructions and Buttons-->
  
 
 
