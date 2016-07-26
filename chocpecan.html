@@ -29,13 +29,13 @@
     <![endif]-->
 </head>
 
-<body>
-    <!--Start of Navigation Bar-->
+<body class="prec bk">
+    <!--start of navigation-->
         
             <div class="container-fluid">
                 <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">YUM</a>
+                    <a class="navbar-brand navbar-brand-text" href="#">YUM</a>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -47,77 +47,54 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <div>
                     <ul class="nav nav-justified navbar-pills">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="#">CHOCOLATE</a></li>
-                            <li class="dropdown">
-                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="chx.html"> HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>and CULTIVATION <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-                                    
-                                    <li><a href="rec.html">RECIPIE IDEAS</a></li>
-                                </ul>
-                            </li>
-                        <li><a href="#">COFFEE</a></li>
-                        <li class="dropdown">
-                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="fhx.html">HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-                                    
-                                    <li><a href="rec.html">RECIPIE IDEAS</a></li>
-                                </ul>
-                            </li>
-                        <li><a href="#">TEA</a></li>
-                        <li class="dropdown">
-                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="thx.html">HISTORY <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>and CULTIVATION<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-                                    
-                                    <li><a href="rec.html">RECIPIE IDEAS</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="fun.html"> FUN </a></li>
-                        <li><a href="int.html">INTEREST FORM</a></li>
+                        <li><a href="index.html" class="white">HOME</a></li>
+                        <li><a href="chx.html" class="white">CHOCOLATE</a></li>
+                        <li><a href="fhx.html" class="white">COFFEE</a></li>
+                    
+                        <li><a href="thx.html" class="white">TEA</a></li>
+                        
+                            <li><a href="fun.html" class="white"> FUN </a></li>
+                            <li><a href="rec.html" class="white">RECIPIE IDEAS</a></li>
+                        <li><a href="int.html" class="white">INTEREST FORM</a></li>
                         
                     </ul>   
                     </div>
                 </div>
              </nav>
              </div>
-                     <!-- End of Navigation Bar-->
-        
+                     <!-- End of Navigation-->
     <div class="title">
         <h2>CHOCOLATE PECAN PIE</h2>
 
     </div>
     <div>
 
-        <!--NEED PIC OF PIE-->
 
-        <img src="images/truf.jpg" class="img-responsive img-rounded center-block" id="recipe" alt="Image of Chocolate Truffles">
+        <img src="images/pecan.jpg" class="img-responsive img-circle center-block" id="recipe" alt="Image of Chocolate Truffles">
 
     </div>
     <div class="subtitle">
-        <h3 class="ingred">INGREDIENTS</h3>
-        <ul>
-            <li>Pie crust, preferably one without sugar so as to ensure that the flavor of the pie is enhanced rather then overwelmed by a sugary taste. Our suggestion would be for one which uses cream cheese in combination with flour and butter.</li>
-                <li>Dark choclate, melted, with a small amount of butter.</li>
-                <li>Your usual combination of ingredients for the filling.</li>
-                <li>Pecans</li>
+        <h3 class="recipe">INGREDIENTS</h3>
+        <p class="inst">
+            Pie crust, preferably one without sugar so as to ensure that the flavor of the pie is enhanced rather then overwelmed by a sugary taste. Our suggestion would be for one which uses cream cheese in combination with flour and butter.<br>
+                Dark choclate, melted, with a small amount of butter.<br>
+                Your usual combination of ingredients for the filling.</br>
+                Pecans
 
-        </ul>
-        <h3 class="dir">DIRECTIONS</h3>
-        <ul>
-            <li>After baking the crust until just slightly brown, top it with the already melted chocolate and butter mix.</li>
-            <li>Add in some pecans, preferably pieces less then half size.</li>
-            <li>Add in your filling.</li>
-            <li>Top with pecan halves.</li>
-            <li>Bake as usual.</li>
+        </p>
+        <h3 class="recipe">DIRECTIONS</h3>
+        <p="inst">
+            After baking the crust until just slightly brown, top it with the already melted chocolate and butter mix.<br>
+            Add in some pecans, preferably pieces less then half size.</li>
+            Add in your filling.<br>
+            Top with pecan halves.<br>
+            Bake as usual.<br>
 
-        </ul>
+        </p>
 
     </div>
     <div class="comments"> 
-        <p>Ee hope you've tried this recipe and will offer your comments below:</p>
+        <p>We hope you've tried this recipe and will offer your comments below:</p>
     </div>                  
     <!--Comment Form starts here-->
         <form>
@@ -126,10 +103,7 @@
                 <input type="text" class="form-control" id="commentInputName" placeholder="Your Opinion">
             </div>
             
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox">Check this out
-                </label>
+            <div>
                 <button type="submit" class="btn btn-success">Submit</button>
                 <button type="submit" class="btn btn-danger">Reset</button>
                 
@@ -140,14 +114,10 @@
     
 
     <!--navigation for recipes-->
-    <div>
-        <button class="btn btn-success"><a href="mocha.html">MOCHA TRUFFLES</a></button>
-        <button class="btn btn-success"><a href="chocpecan.html">CHOCOLATE PECAN PIE</a></button>
-        <button class="btn btn-success"><a href="matcha.html">MATCHA CAKE</a></button>
-        <button class="btn btn-success"><a href="teab.html">BREWING TEA</a></button>
-        <button class="btn btn-success"><a href="mole.html">MOLE SAUCE</a></button>
-        <button class="btn btn-success"><a href="alcof.html">IRISH COFFEE</a></button>
-        <button class="btn btn-success"><a href="#">smiles amd smiles</a></button>
+    <div class="dn ctr">
+        <button class="btn btn-lg nrec"><a href="mocha.html">MOCHA TRUFFLES</a></button>
+        <button class="btn btn-lg nrec"><a href="chocpecan.html">CHOCOLATE PECAN PIE</a></button>
+        <button class="btn btn-lg nrec"><a href="matcha.html">MATCHA CAKE</a></button>
 
     </div>
 

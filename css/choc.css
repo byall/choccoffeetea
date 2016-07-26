@@ -354,29 +354,42 @@
 	opacity: 1;
 }
 @media screen and (max-width: 1140px) { 
-	.cb-slideshow li div h3 { font-size: 100px }
+	.cb-slideshow li div h3 { font-size: 100px; }
 }
 @media screen and (max-width: 600px) { 
-	.cb-slideshow li div h3 { font-size: 50px }
+	.cb-slideshow li div h3 { font-size: 50px; }
 }
 /*end of slide show*/
 
-.navbar-brand, .nav, .dropdown-menu {background-color: #5C0D0D;
+.navbar-brand-text, .nav {background-color: #5C0D0D;
 	color: #FFF;
-	font-family: 'Jomhuria', cursive;
+	
 	font-size: 200%;
 	
 }
+.white {background-color: #5C0D0D;
+	color:#FFF;
+	font-family: 'Jomhuria', cursive;
+	
+}
+.jumbotron-st {
+    color: #FFF;
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 10%;
+	
+}	
 	
 	
 
-.jumbotron {
+/*.jumbotron {
     color: #FFF;
     font-family: 'Jomhuria', cursive;
     text-align: center;
     font-size: 200%;
 	
-}
+}*/
 .ph {background-image: url(../images/choc.jpg);
 	
     
@@ -388,7 +401,7 @@
     
 }
 
-.dwn {margin-top: 5%;
+.dwn {margin-top: 8%;
     
 }
 h3, .type {color: #FFF;
@@ -457,7 +470,10 @@ h3, .type {color: #FFF;
 .prec {background-image: url(../images/steam.jpg);
 	
 }
-.fbk {background-image: url(../images/maze.jpg);
+.fubk {background-image: url(../images/maze.jpg);
+	
+}
+.quiz {background-color: #BD800F;
 	
 }
 .bk {background-size: cover;
@@ -475,13 +491,36 @@ h3, .type {color: #FFF;
 	padding: 5%;
 
 }
-
+.stk {
+	font-size: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.barst {background-image: url(../images/bars.jpg);
+	
+}
+.know {background-image: url(../images/puzz.jpg);
+	
+}
+.expl {color:#000;
+	font-size: 125%;
+	background-color: #FFF;
+	opacity: .6;
+	
+}
 footer {color: #FFF;
 	text-align: center;
 	font-size: 150%;
 	margin-top: 5%;
 }
-    
+.recipe {font-weight: bold;
+	
+	
+}
+.inst{text-align: center;
+	color:#FFF;
+	
+}
 .comments {font-size: 100%;
     font-weight: bold;
     text-align: center;
@@ -490,10 +529,15 @@ footer {color: #FFF;
     color:  #FFF;
     
 }
+.learn {background-color: #5C0D0D;
+	color:#000;
+	font-size: 200%;
+	font-weight: bold;
+}
 
 
 
-/*Fun page*/
+/*Last page*/
 /* This tile effect is from the Simple Tile Hover Effect by Chris Deacy on CodePen, many thanks to him!*/ 
 
 
@@ -666,10 +710,10 @@ footer {color: #FFF;
 }
 
     
-canvas {margin-left: 20%;
+canvas {margin-left: 10%;
 	margin-top: 20%;
-    border: 1px solid #000;
-    background-color: #535C5E;
+    border: 5px solid #000;
+    background-color: #5C0D0D;
 }
 .titleg {text-align: center;
 	color: #5C0D0D;

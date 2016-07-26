@@ -23,11 +23,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     </head>
-    <body>
-         <nav class="navbar navbar-default navbar-fixed-top">
+    <body class="quiz">
+        <!--start of navigation-->
+        
             <div class="container-fluid">
+                <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">YUM</a>
+                    <a class="navbar-brand navbar-brand-text" href="#">YUM</a>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -35,56 +37,38 @@
                         <span class="icon-bar"></span>
                         
                     </button>
-                </div>  <!-- Navbar-header ends -->
+                </div>  <!-- End of Navbar Header -->
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <div>
                     <ul class="nav nav-justified navbar-pills">
-                        <li><a href="#index.html">CHOCOLATE</a></li>
-                            <li class="dropdown">
-                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="chx.html">HISTORY and CULTIVATION</a></li>
-                                    
-                                    <li><a href="crecipies.html">RECIPIES</a></li>
-                                </ul>
-                            </li>
-                        <li><a href="#about.html">COFFEE</a></li>
-                        <li class="dropdown">
-                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="fhx.html">HISTORY and CULTIVATION</a></li>
-                                    
-                                    <li><a href="frecipies.html">RECIPIES</a></li>
-                                </ul>
-                            </li>
-                        <li><a href="#map.html">TEA</a></li>
-                        <li class="dropdown">
-                                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button"><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="thx.html">HISTORY and CULTIVATION</a></li>
-   
-                                 
-                                    <li><a href="trecipies.html">RECIPIES</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="int.html">INTEREST FORM</a></li>
+                        <li><a href="index.html" class="white">HOME</a></li>
+                        <li><a href="chx.html" class="white">CHOCOLATE</a></li>
+                        <li><a href="fhx.html" class="white">COFFEE</a></li>
+                    
+                        <li><a href="thx.html" class="white">TEA</a></li>
                         
-                    </ul>   <!-- Navbar ul ends -->
+                            <li><a href="fun.html" class="white"> FUN </a></li>
+                            <li><a href="rec.html" class="white">RECIPIE IDEAS</a></li>
+                        
+                        
+                    </ul>   
                     </div>
-                    </nav> <!--nav bar ends-->
-        
+                </div>
+             </nav>
+             </div>
+                     <!-- End of Navigation-->
         
 
-  <div class="jumbotron">
-                <div class="container">
-                  <h1>WHAT DID YOU LEARN?</h1>
+  
+                <div class="jumbotron jumbotron-st">
+                  <h1 class="learn">WHAT DID YOU LEARN?</h1>
                   </div>
-                </div>
+              
                 
     
                         
     <!--Form starts here-->
-        <form>
+        <form class="dn">
             <div class="form-group">
                 <label for="chocInputName">What was chocolate used as by the Mayans and Aztecs?</label>
                 <input type="text" class="form-control" id="chocInputName" placeholder="Answer">
@@ -136,7 +120,7 @@
         <script rel="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-        <script rel="javascript" src="js/form.js"
+        <script rel="javascript" src="js/form.js"></script>
     </body>
 
 </html>

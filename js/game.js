@@ -3,8 +3,8 @@ var whiteStick = [];
 var gameScore;
 
 function startGame() {
-    chocChunk = new component(20, 30, "#5C0D0D", 10, 120);
-    gameScore = new component("30px", "Consolas", "#000", 280, 40, "text");
+    chocChunk = new component(20, 30, "images/dk.png", 10, 120, "image");
+    gameScore = new component("30px", "Consolas", "#C41283", 280, 40, "text");
     myGameArea.start();
 }
 
@@ -28,6 +28,10 @@ var myGameArea = {
 
 function component(width, height, color, x, y, type) {
     this.type = type;
+    if (type == "image") {
+    this.image = new Image();
+    this.image.src = color;
+  }
     this.width = width;
     this.height = height;
     this.speedX = 0;
@@ -36,15 +40,22 @@ function component(width, height, color, x, y, type) {
     this.y = y;
     this.update = function() {
         ctx = myGameArea.context;
-        if (this.type == "text") {
-            ctx.font = this.width + " " + this.height;
-            ctx.fillStyle = color;
-            ctx.fillText(this.text, this.x, this.y);
-        } else {
-            ctx.fillStyle = color;
-            ctx.fillRect(this.x, this.y, this.width, this.height);
-        }
+        if (type == "image") {
+      ctx.drawImage(this.image, 
+        this.x, 
+        this.y,
+        this.width, this.height);
+    } else if (this.type == "text") {
+      ctx.font = this.width + " " + this.height;
+      ctx.fillStyle = color;
+      ctx.fillText(this.text, this.x, this.y);
+    } else {
+      ctx.fillStyle = color;
+      ctx.fillRect(this.x, this.y, this.width, this.height);
     }
+    
+  }
+
     this.newPos = function() {
         this.x += this.speedX;
         this.y += this.speedY;
