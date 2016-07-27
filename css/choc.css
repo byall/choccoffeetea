@@ -445,6 +445,7 @@ h3, .type {color: #FFF;
 	background-color: #5C0D0D;
 	font-weight: bold;
 	font-family: 'Lobster', cursive;
+	
 }
 
 .stk {
@@ -548,28 +549,18 @@ footer {color: #FFF;
     font-weight: bold;
     
 }
+
 .learn {background-color: #5C0D0D;
 	color:#000;
 	font-size: 200%;
 	font-weight: bold;
 }
-.barint {font-size: 150%;
-		color: #FFF;
-		font-weight: bold;
-		text-align: center;
-		font-family: 'Farsan', cursive;
-}
+
 .box {text-align:center;
 	width: 480px;
 	
 }
-.gamebuttons {color:#000;
-	background-color: #FFF;
-	font-weight: bold;
-	font-family: 'Farsan', cursive;
-	
-	
-}
+/*Bars and Sticks Game*/
 canvas {margin-left: 10%;
 	margin-top: 10%;
     border: 5px solid #000;
@@ -580,18 +571,30 @@ canvas {margin-left: 10%;
 	font-size: 100%;
 	
 }
+
+.gamebuttons {color:#000;
+	background-color: #FFF;
+	font-weight: bold;
+	font-family: 'Farsan', cursive;
 	
+}
+.barint {font-size: 150%;
+		color: #FFF;
+		font-weight: bold;
+		text-align: center;
+		font-family: 'Farsan', cursive;
+}
+
+/*Last page*/
+/* This tile effect is adapted from the Simple Tile Hover Effect by Chris Deacy on CodePen, many thanks to him!*/ 
+.lastbk {background-color: #000;
+}
 .laphoto {margin-top: 10%;
 	text-align: center;
 	background-color: #5C0D0D;
 	color: #FFF;
 	font-weight: bold;
 }
-	
-
-/*Last page*/
-/* This tile effect is adapted from the Simple Tile Hover Effect by Chris Deacy on CodePen, many thanks to him!*/ 
-
 
 .tiles {
     padding-top: 520px;
@@ -760,5 +763,4 @@ canvas {margin-left: 10%;
     margin-top: 750px;
     transform: rotateZ(-6deg)
 }
-
     

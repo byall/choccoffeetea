@@ -1,3 +1,4 @@
+/*JavaScript for Bars and Sticks Game*/
 var chocChunk;
 var whiteStick = [];
 var gameScore;
@@ -7,7 +8,7 @@ function startGame() {
     gameScore = new component("30px", "Consolas", "#C41283", 280, 40, "text");
     myGameArea.start();
 }
-
+//Function for Area of Game on Canvas
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
@@ -25,7 +26,7 @@ var myGameArea = {
         clearInterval(this.interval);
     }
 }
-
+/*Function for Game Components:  Image of Chocolate Chunk, White Sticks and Game Scoring*/
 function component(width, height, color, x, y, type) {
     this.type = type;
     if (type == "image") {
@@ -76,7 +77,7 @@ function component(width, height, color, x, y, type) {
         return crash;
     }
 }
-
+//Function for Random Sized White Sticks
 function updateGameArea() {
     var x, height, gap, minHeight, maxHeight, minGap, maxGap;
     for (i = 0; i < whiteStick.length; i += 1) {
@@ -113,7 +114,7 @@ function everyinterval(n) {
     if ((myGameArea.frameNo / n) % 1 == 0) {return true;}
     return false;
 }
-
+//Fnctions for Game Controlls
 function moveup() {
     chocChunk.speedY = -1;
 }
