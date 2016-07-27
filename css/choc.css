@@ -562,8 +562,7 @@ footer {color: #FFF;
 }
 /*Bars and Sticks Game*/
 canvas {margin-left: 10%;
-	margin-top: 10%;
-    border: 5px solid #000;
+	margin-top: 9%;
     background-color: #5C0D0D;
 }
 .titleg {text-align: center;
