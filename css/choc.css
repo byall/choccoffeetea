@@ -468,7 +468,9 @@ h3, .type {color: #FFF;
 	
 }
 
-.ctr {text-align: center;}
+.ctr {text-align: center;
+	
+}
 /*Styling for Random Phrases*/
 .random {text-align: center;
     font-size: 175%;
@@ -508,7 +510,7 @@ h3, .type {color: #FFF;
 }
 
 .bk {background-size: cover;
-    background-position: center center;
+    background-position:  center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 	
